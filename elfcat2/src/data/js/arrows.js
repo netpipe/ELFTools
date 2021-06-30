@@ -9,7 +9,7 @@ function getAbsPosition(elem) {
     } while (elem);
 
     return {
-        x x;
+        x: x,
         y: y
     };
 }

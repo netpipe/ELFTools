@@ -43,7 +43,7 @@ std::string include_str(const std::string& path, const std::string& indent) {
     std::ifstream file(path);
     std::string string; 
     while (std::getline(file, string)) {
-        ss << indent << string;
+        ss << indent << string << std::endl;
     }
     return ss.str();
 }
