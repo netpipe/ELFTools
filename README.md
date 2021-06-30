@@ -4,10 +4,6 @@ ELFTools- ELF Binary Tools
 
 https://github.com/ruslashev/elfcat original port
 
-mkdir build
-cd build
-cmake ..
+cmake .
 make
-make install
-cd ../bin
 ./elfcat example
