@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/netpipe/Desktop/ELFTools/src/utils/include/utils.hpp
+array
+-
+cstdint
+-
+iomanip
+-
+optional
+-
+sstream
+-
+string
+-
+type_traits
+-
+vector
+-
+
+/home/netpipe/Desktop/ELFTools/src/utils/utils.cpp
+cmath
+-
+fstream
+-
+iomanip
+-
+iterator
+-
+sstream
+-
+string
+-
+include/utils.hpp
+/home/netpipe/Desktop/ELFTools/src/utils/include/utils.hpp
+

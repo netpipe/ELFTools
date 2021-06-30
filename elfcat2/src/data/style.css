@@ -1,0 +1,150 @@
+html {
+  font-family: monospace;
+}
+#headertable {
+  width: 100%;
+}
+#rightmenu {
+  vertical-align: top;
+  text-align: right;
+}
+#rightmenu > * {
+  margin-top: 0px;
+}
+#credits {
+  color: #ddd;
+}
+#credits:hover {
+  color: #000;
+}
+#desc {
+  width: 250px;
+}
+#struct_infotables {
+  padding-right: 0px;
+}
+#data_infotables {
+  padding-left: 0px;
+}
+.conceal {
+  display: none;
+  border: 1px solid #000;
+  max-width: 600px;
+}
+#offsets {
+  display: inline-block;
+  text-align: right;
+}
+#bytes {
+  border: 1px solid;
+  display: inline-block;
+  word-break: break-word;
+  /* 16 bytes * (2 chars per byte + 1 space) - 1 final space + 1 due to a bug in chrome, where if
+   * you set width to X ch and put X characters, it may or may not wrap. */
+  width: 48ch;
+}
+#ascii {
+  border: 1px solid;
+  display: inline-block;
+  width: 16ch;
+}
+#vmap {
+  border: 1px solid;
+  display: inline-block;
+  width: 47ch;
+  vertical-align: top;
+  position: sticky;
+  top: 8px;
+}
+#sticky_table {
+  display: inline-block;
+  vertical-align: top;
+  position: sticky;
+  top: 8px;
+}
+#sticky_table > * {
+  vertical-align: top;
+}
+.hover:hover {
+  background-color: #ee9;
+}
+
+#ident {
+  background-color: #e99;
+}
+/* highlight children */
+#ident:hover > * {
+  background-color: #ebb;
+}
+/* duplicate of .hover:hover with more specifity.
+ * used for elements like #magic, for whom
+ * rule #ident:hover > * would override .hover:hover rule */
+#ident:hover > *.hover:hover {
+  background-color: #ee9;
+}
+
+/* same for #ehdr, but we also don't want to highlight #ident */
+#ehdr {
+  background-color: #99e;
+}
+#ehdr:hover > *:not(#ident) {
+  background-color: #bbe;
+}
+#ehdr:hover > *.hover:hover:not(#ident) {
+  background-color: #ee9;
+}
+
+.phdr {
+  background-color: #eb9;
+}
+.phdr:hover > * {
+  background-color: #ed9;
+}
+.phdr_hover:hover {
+  background-color: #ef9;
+}
+
+.shdr {
+  background-color: #9be;
+}
+.shdr:hover > * {
+  background-color: #9de;
+}
+.shdr_hover:hover {
+  background-color: #9fe;
+}
+
+.segment {
+  background-color: #f99;
+}
+.section {
+  background-color: #f9f;
+}
+/* there are only sections inside segments due to code */
+.segment > .section {
+  background: repeating-linear-gradient(
+    -45deg,
+    #f99,
+    #f99 10px,
+    #f9f 10px,
+    #f9f 20px
+  );
+}
+/* another duplicate of .hover:hover with more specifity */
+.segment > .section.hover:hover {
+  background: initial;
+  background-color: #ee9;
+}
+
+.segment > .segment_subrange.hover:hover {
+  background: initial;
+  background-color: #f59;
+}
+
+svg {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  pointer-events: none;
+  overflow: visible;
+}
