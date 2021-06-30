@@ -2,8 +2,9 @@ elfcat - ELF visualizer. Generates HTML files from ELF binaries.
 
 1. How do I install and use it?
 
-       $ cargo install elfcat
-       $ elfcat path/to/file
+cmake .
+make
+./elfcat example
 
 2. How does it look like?
 
