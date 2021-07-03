@@ -38,6 +38,10 @@ int main(int argc, char** argv) {
     std::string filename = parse_arguments(argc, argv);
 
     std::ifstream ifile(filename, std::ios::binary);
+    if (ifile.fail()) {
+        std::cout << "Error: file '" << filename << "' can't be opened!" << std::endl;
+        return -1;
+    }
     ifile.unsetf(std::ios::skipws);
     ifile.seekg(0, std::ios::end);
     std::streampos file_size = ifile.tellg();
