@@ -40,7 +40,7 @@ std::string RangeTypeHeaderField::id() const {
     return value;
 }
 
-bool RangeTypeHeaderField::always_highlight() {
+bool RangeTypeHeaderField::always_highlight() const {
     return highlight_values.find(value) != highlight_values.end();
 }
 

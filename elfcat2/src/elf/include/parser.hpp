@@ -80,7 +80,7 @@ struct RangeTypeHeaderField : ConfigurableRangeType<false, true> {
     RangeTypeHeaderField(const std::string& v);
 
     std::string id() const;
-    bool always_highlight();
+    bool always_highlight() const;
 
     const std::string value;
 
