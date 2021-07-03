@@ -193,7 +193,7 @@ void generate_strtab_data(std::stringstream& o, const std::vector<uint8_t>& sect
     size_t i = 0;
     for (const auto& c : section) {
         if (c == 0) {
-            size_t end = (curr_start == 0)?0:(i - 1);
+            size_t end = (curr_start == 0)?0:i;
 
 
             std::string maybe = std::string(section.cbegin() + curr_start, section.cbegin() + end);
