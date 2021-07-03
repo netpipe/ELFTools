@@ -40,7 +40,7 @@ std::string RangeTypeHeaderField::id() const {
     return value;
 }
 
-bool RangeTypeHeaderField::always_highlight() {
+bool RangeTypeHeaderField::always_highlight() const {
     return highlight_values.find(value) != highlight_values.end();
 }
 
@@ -130,7 +130,7 @@ void Ranges::add_range(size_t start, size_t end, RangeType* range_type) {
 }
 
 size_t Ranges::lookup_range_ends(size_t point) const {
-    return std::count_if(data[point].begin(), data[point].begin(), [](const auto& item){ return item->is_end(); });
+    return std::count_if(data[point].begin(), data[point].end(), [](const auto& item){ return item->is_end(); });
 }
 
 ParsedIdent ParsedIdent::from_bytes(const std::vector<uint8_t>& buf) {
@@ -144,7 +144,7 @@ ParsedIdent ParsedIdent::from_bytes(const std::vector<uint8_t>& buf) {
     };
 }
 
-ParsedElf ParsedElf::from_bytes(const std::string& filename, const std::vector<uint8_t> buf) {
+ParsedElf ParsedElf::from_bytes(const std::string& filename, const std::vector<uint8_t>& buf) {
     if (buf.size() < static_cast<size_t>(ELF_EI_NIDENT)) {
         throw std::runtime_error("file is smaller than ELF header's e_ident");
     }

@@ -37,8 +37,19 @@ std::string parse_arguments(int argc, char** argv) {
 int main(int argc, char** argv) {
     std::string filename = parse_arguments(argc, argv);
 
-    std::ifstream ifile(filename);
-    std::vector<uint8_t> contents((std::istreambuf_iterator<char>(ifile)), std::istreambuf_iterator<char>());
+    std::ifstream ifile(filename, std::ios::binary);
+    if (ifile.fail()) {
+        std::cout << "Error: file '" << filename << "' can't be opened!" << std::endl;
+        return -1;
+    }
+    ifile.unsetf(std::ios::skipws);
+    ifile.seekg(0, std::ios::end);
+    std::streampos file_size = ifile.tellg();
+    ifile.seekg(0, std::ios::beg);
+
+    std::vector<uint8_t> contents;
+    contents.reserve(file_size);
+    contents.insert(contents.begin(), std::istreambuf_iterator<char>(ifile), std::istreambuf_iterator<char>());
 
     auto elf = ParsedElf::from_bytes(filename, contents);
     auto report_filename = construct_filename(filename);
