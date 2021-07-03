@@ -122,7 +122,7 @@ struct RangeTypePhdrField : ConfigurableRangeType<true> {
 
     std::string class_() const;
 
-    const std::string& value;
+    std::string value;
 };
 
 
@@ -131,7 +131,7 @@ struct RangeTypeShdrField : ConfigurableRangeType<true> {
 
     std::string class_() const;
 
-    const std::string& value;
+    std::string value;
 };
 
 
@@ -233,7 +233,7 @@ struct ParsedShdr {
 
 
 struct ParsedElf {
-    static ParsedElf from_bytes(const std::string& filename, const std::vector<uint8_t> buf);
+    static ParsedElf from_bytes(const std::string& filename, const std::vector<uint8_t>& buf);
     void push_file_info();
     void push_ident_info(const ParsedIdent& ident);
     void add_ident_ranges();

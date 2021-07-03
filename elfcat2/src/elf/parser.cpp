@@ -144,7 +144,7 @@ ParsedIdent ParsedIdent::from_bytes(const std::vector<uint8_t>& buf) {
     };
 }
 
-ParsedElf ParsedElf::from_bytes(const std::string& filename, const std::vector<uint8_t> buf) {
+ParsedElf ParsedElf::from_bytes(const std::string& filename, const std::vector<uint8_t>& buf) {
     if (buf.size() < static_cast<size_t>(ELF_EI_NIDENT)) {
         throw std::runtime_error("file is smaller than ELF header's e_ident");
     }
