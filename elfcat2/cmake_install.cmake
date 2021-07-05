@@ -1,4 +1,4 @@
-# Install script for directory: /home/netpipe/Desktop/ELFTools
+# Install script for directory: /home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,46 +38,46 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/netpipe/Desktop/ELFTools/bin/elfcat" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/netpipe/Desktop/ELFTools/bin/elfcat")
+  if(EXISTS "$ENV{DESTDIR}/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin/elfcat" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin/elfcat")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/netpipe/Desktop/ELFTools/bin/elfcat"
+         FILE "$ENV{DESTDIR}/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin/elfcat"
          RPATH "")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/netpipe/Desktop/ELFTools/bin/elfcat")
+   "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin/elfcat")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/netpipe/Desktop/ELFTools/bin" TYPE EXECUTABLE FILES "/home/netpipe/Desktop/ELFTools/elfcat")
-  if(EXISTS "$ENV{DESTDIR}/home/netpipe/Desktop/ELFTools/bin/elfcat" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/netpipe/Desktop/ELFTools/bin/elfcat")
+file(INSTALL DESTINATION "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin" TYPE EXECUTABLE FILES "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/elfcat")
+  if(EXISTS "$ENV{DESTDIR}/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin/elfcat" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin/elfcat")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/netpipe/Desktop/ELFTools/bin/elfcat")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin/elfcat")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/netpipe/Desktop/ELFTools/bin/data")
+   "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin/data")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/netpipe/Desktop/ELFTools/bin" TYPE DIRECTORY FILES "/home/netpipe/Desktop/ELFTools/src/data")
+file(INSTALL DESTINATION "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin" TYPE DIRECTORY FILES "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/data")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/netpipe/Desktop/ELFTools/src/utils/cmake_install.cmake")
-  include("/home/netpipe/Desktop/ELFTools/src/elf/cmake_install.cmake")
-  include("/home/netpipe/Desktop/ELFTools/example/cmake_install.cmake")
+  include("/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/utils/cmake_install.cmake")
+  include("/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/cmake_install.cmake")
+  include("/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/example/cmake_install.cmake")
 
 endif()
 
@@ -89,5 +89,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/netpipe/Desktop/ELFTools/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

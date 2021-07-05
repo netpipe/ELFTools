@@ -60,10 +60,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/netpipe/Desktop/ELFTools
+CMAKE_SOURCE_DIR = "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/netpipe/Desktop/ELFTools
+CMAKE_BINARY_DIR = "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2"
 
 # Include any dependencies generated for this target.
 include src/elf/CMakeFiles/elf.dir/depend.make
@@ -76,55 +76,55 @@ include src/elf/CMakeFiles/elf.dir/flags.make
 
 src/elf/CMakeFiles/elf.dir/defs.cpp.o: src/elf/CMakeFiles/elf.dir/flags.make
 src/elf/CMakeFiles/elf.dir/defs.cpp.o: src/elf/defs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/netpipe/Desktop/ELFTools/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/elf/CMakeFiles/elf.dir/defs.cpp.o"
-	cd /home/netpipe/Desktop/ELFTools/src/elf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/elf.dir/defs.cpp.o -c /home/netpipe/Desktop/ELFTools/src/elf/defs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/elf/CMakeFiles/elf.dir/defs.cpp.o"
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/elf.dir/defs.cpp.o -c "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/defs.cpp"
 
 src/elf/CMakeFiles/elf.dir/defs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/elf.dir/defs.cpp.i"
-	cd /home/netpipe/Desktop/ELFTools/src/elf && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/netpipe/Desktop/ELFTools/src/elf/defs.cpp > CMakeFiles/elf.dir/defs.cpp.i
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/defs.cpp" > CMakeFiles/elf.dir/defs.cpp.i
 
 src/elf/CMakeFiles/elf.dir/defs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/elf.dir/defs.cpp.s"
-	cd /home/netpipe/Desktop/ELFTools/src/elf && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/netpipe/Desktop/ELFTools/src/elf/defs.cpp -o CMakeFiles/elf.dir/defs.cpp.s
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/defs.cpp" -o CMakeFiles/elf.dir/defs.cpp.s
 
 src/elf/CMakeFiles/elf.dir/elf32.cpp.o: src/elf/CMakeFiles/elf.dir/flags.make
 src/elf/CMakeFiles/elf.dir/elf32.cpp.o: src/elf/elf32.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/netpipe/Desktop/ELFTools/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/elf/CMakeFiles/elf.dir/elf32.cpp.o"
-	cd /home/netpipe/Desktop/ELFTools/src/elf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/elf.dir/elf32.cpp.o -c /home/netpipe/Desktop/ELFTools/src/elf/elf32.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/elf/CMakeFiles/elf.dir/elf32.cpp.o"
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/elf.dir/elf32.cpp.o -c "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/elf32.cpp"
 
 src/elf/CMakeFiles/elf.dir/elf32.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/elf.dir/elf32.cpp.i"
-	cd /home/netpipe/Desktop/ELFTools/src/elf && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/netpipe/Desktop/ELFTools/src/elf/elf32.cpp > CMakeFiles/elf.dir/elf32.cpp.i
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/elf32.cpp" > CMakeFiles/elf.dir/elf32.cpp.i
 
 src/elf/CMakeFiles/elf.dir/elf32.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/elf.dir/elf32.cpp.s"
-	cd /home/netpipe/Desktop/ELFTools/src/elf && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/netpipe/Desktop/ELFTools/src/elf/elf32.cpp -o CMakeFiles/elf.dir/elf32.cpp.s
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/elf32.cpp" -o CMakeFiles/elf.dir/elf32.cpp.s
 
 src/elf/CMakeFiles/elf.dir/elf64.cpp.o: src/elf/CMakeFiles/elf.dir/flags.make
 src/elf/CMakeFiles/elf.dir/elf64.cpp.o: src/elf/elf64.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/netpipe/Desktop/ELFTools/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/elf/CMakeFiles/elf.dir/elf64.cpp.o"
-	cd /home/netpipe/Desktop/ELFTools/src/elf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/elf.dir/elf64.cpp.o -c /home/netpipe/Desktop/ELFTools/src/elf/elf64.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/elf/CMakeFiles/elf.dir/elf64.cpp.o"
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/elf.dir/elf64.cpp.o -c "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/elf64.cpp"
 
 src/elf/CMakeFiles/elf.dir/elf64.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/elf.dir/elf64.cpp.i"
-	cd /home/netpipe/Desktop/ELFTools/src/elf && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/netpipe/Desktop/ELFTools/src/elf/elf64.cpp > CMakeFiles/elf.dir/elf64.cpp.i
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/elf64.cpp" > CMakeFiles/elf.dir/elf64.cpp.i
 
 src/elf/CMakeFiles/elf.dir/elf64.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/elf.dir/elf64.cpp.s"
-	cd /home/netpipe/Desktop/ELFTools/src/elf && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/netpipe/Desktop/ELFTools/src/elf/elf64.cpp -o CMakeFiles/elf.dir/elf64.cpp.s
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/elf64.cpp" -o CMakeFiles/elf.dir/elf64.cpp.s
 
 src/elf/CMakeFiles/elf.dir/parser.cpp.o: src/elf/CMakeFiles/elf.dir/flags.make
 src/elf/CMakeFiles/elf.dir/parser.cpp.o: src/elf/parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/netpipe/Desktop/ELFTools/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/elf/CMakeFiles/elf.dir/parser.cpp.o"
-	cd /home/netpipe/Desktop/ELFTools/src/elf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/elf.dir/parser.cpp.o -c /home/netpipe/Desktop/ELFTools/src/elf/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/elf/CMakeFiles/elf.dir/parser.cpp.o"
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/elf.dir/parser.cpp.o -c "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/parser.cpp"
 
 src/elf/CMakeFiles/elf.dir/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/elf.dir/parser.cpp.i"
-	cd /home/netpipe/Desktop/ELFTools/src/elf && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/netpipe/Desktop/ELFTools/src/elf/parser.cpp > CMakeFiles/elf.dir/parser.cpp.i
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/parser.cpp" > CMakeFiles/elf.dir/parser.cpp.i
 
 src/elf/CMakeFiles/elf.dir/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/elf.dir/parser.cpp.s"
-	cd /home/netpipe/Desktop/ELFTools/src/elf && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/netpipe/Desktop/ELFTools/src/elf/parser.cpp -o CMakeFiles/elf.dir/parser.cpp.s
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/parser.cpp" -o CMakeFiles/elf.dir/parser.cpp.s
 
 elf: src/elf/CMakeFiles/elf.dir/defs.cpp.o
 elf: src/elf/CMakeFiles/elf.dir/elf32.cpp.o
@@ -140,10 +140,10 @@ src/elf/CMakeFiles/elf.dir/build: elf
 .PHONY : src/elf/CMakeFiles/elf.dir/build
 
 src/elf/CMakeFiles/elf.dir/clean:
-	cd /home/netpipe/Desktop/ELFTools/src/elf && $(CMAKE_COMMAND) -P CMakeFiles/elf.dir/cmake_clean.cmake
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf" && $(CMAKE_COMMAND) -P CMakeFiles/elf.dir/cmake_clean.cmake
 .PHONY : src/elf/CMakeFiles/elf.dir/clean
 
 src/elf/CMakeFiles/elf.dir/depend:
-	cd /home/netpipe/Desktop/ELFTools && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/netpipe/Desktop/ELFTools /home/netpipe/Desktop/ELFTools/src/elf /home/netpipe/Desktop/ELFTools /home/netpipe/Desktop/ELFTools/src/elf /home/netpipe/Desktop/ELFTools/src/elf/CMakeFiles/elf.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf" "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf" "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/CMakeFiles/elf.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/elf/CMakeFiles/elf.dir/depend
 

@@ -60,10 +60,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/netpipe/Desktop/ELFTools
+CMAKE_SOURCE_DIR = "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/netpipe/Desktop/ELFTools
+CMAKE_BINARY_DIR = "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2"
 
 # Include any dependencies generated for this target.
 include src/utils/CMakeFiles/utils.dir/depend.make
@@ -76,16 +76,16 @@ include src/utils/CMakeFiles/utils.dir/flags.make
 
 src/utils/CMakeFiles/utils.dir/utils.cpp.o: src/utils/CMakeFiles/utils.dir/flags.make
 src/utils/CMakeFiles/utils.dir/utils.cpp.o: src/utils/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/netpipe/Desktop/ELFTools/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/utils/CMakeFiles/utils.dir/utils.cpp.o"
-	cd /home/netpipe/Desktop/ELFTools/src/utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/utils.cpp.o -c /home/netpipe/Desktop/ELFTools/src/utils/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/utils/CMakeFiles/utils.dir/utils.cpp.o"
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/utils" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/utils.cpp.o -c "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/utils/utils.cpp"
 
 src/utils/CMakeFiles/utils.dir/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utils.dir/utils.cpp.i"
-	cd /home/netpipe/Desktop/ELFTools/src/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/netpipe/Desktop/ELFTools/src/utils/utils.cpp > CMakeFiles/utils.dir/utils.cpp.i
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/utils/utils.cpp" > CMakeFiles/utils.dir/utils.cpp.i
 
 src/utils/CMakeFiles/utils.dir/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utils.dir/utils.cpp.s"
-	cd /home/netpipe/Desktop/ELFTools/src/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/netpipe/Desktop/ELFTools/src/utils/utils.cpp -o CMakeFiles/utils.dir/utils.cpp.s
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/utils/utils.cpp" -o CMakeFiles/utils.dir/utils.cpp.s
 
 utils: src/utils/CMakeFiles/utils.dir/utils.cpp.o
 utils: src/utils/CMakeFiles/utils.dir/build.make
@@ -98,10 +98,10 @@ src/utils/CMakeFiles/utils.dir/build: utils
 .PHONY : src/utils/CMakeFiles/utils.dir/build
 
 src/utils/CMakeFiles/utils.dir/clean:
-	cd /home/netpipe/Desktop/ELFTools/src/utils && $(CMAKE_COMMAND) -P CMakeFiles/utils.dir/cmake_clean.cmake
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/utils" && $(CMAKE_COMMAND) -P CMakeFiles/utils.dir/cmake_clean.cmake
 .PHONY : src/utils/CMakeFiles/utils.dir/clean
 
 src/utils/CMakeFiles/utils.dir/depend:
-	cd /home/netpipe/Desktop/ELFTools && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/netpipe/Desktop/ELFTools /home/netpipe/Desktop/ELFTools/src/utils /home/netpipe/Desktop/ELFTools /home/netpipe/Desktop/ELFTools/src/utils /home/netpipe/Desktop/ELFTools/src/utils/CMakeFiles/utils.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/utils" "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/utils" "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/utils/CMakeFiles/utils.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/utils/CMakeFiles/utils.dir/depend
 

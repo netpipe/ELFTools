@@ -65,10 +65,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/netpipe/Desktop/ELFTools
+CMAKE_SOURCE_DIR = "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/netpipe/Desktop/ELFTools
+CMAKE_BINARY_DIR = "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -143,14 +143,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/netpipe/Desktop/ELFTools && $(CMAKE_COMMAND) -E cmake_progress_start /home/netpipe/Desktop/ELFTools/CMakeFiles /home/netpipe/Desktop/ELFTools/src/utils/CMakeFiles/progress.marks
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f CMakeFiles/Makefile2 src/utils/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/netpipe/Desktop/ELFTools/CMakeFiles 0
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/CMakeFiles" "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/utils/CMakeFiles/progress.marks"
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f CMakeFiles/Makefile2 src/utils/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f CMakeFiles/Makefile2 src/utils/clean
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f CMakeFiles/Makefile2 src/utils/clean
 .PHONY : clean
 
 # The main clean target
@@ -160,22 +160,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f CMakeFiles/Makefile2 src/utils/preinstall
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f CMakeFiles/Makefile2 src/utils/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f CMakeFiles/Makefile2 src/utils/preinstall
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f CMakeFiles/Makefile2 src/utils/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/netpipe/Desktop/ELFTools && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/utils/CMakeFiles/utils.dir/rule:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f CMakeFiles/Makefile2 src/utils/CMakeFiles/utils.dir/rule
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f CMakeFiles/Makefile2 src/utils/CMakeFiles/utils.dir/rule
 .PHONY : src/utils/CMakeFiles/utils.dir/rule
 
 # Convenience name for target.
@@ -185,7 +185,7 @@ utils: src/utils/CMakeFiles/utils.dir/rule
 
 # fast build rule for target.
 utils/fast:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f src/utils/CMakeFiles/utils.dir/build.make src/utils/CMakeFiles/utils.dir/build
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f src/utils/CMakeFiles/utils.dir/build.make src/utils/CMakeFiles/utils.dir/build
 .PHONY : utils/fast
 
 utils.o: utils.cpp.o
@@ -194,7 +194,7 @@ utils.o: utils.cpp.o
 
 # target to build an object file
 utils.cpp.o:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f src/utils/CMakeFiles/utils.dir/build.make src/utils/CMakeFiles/utils.dir/utils.cpp.o
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f src/utils/CMakeFiles/utils.dir/build.make src/utils/CMakeFiles/utils.dir/utils.cpp.o
 .PHONY : utils.cpp.o
 
 utils.i: utils.cpp.i
@@ -203,7 +203,7 @@ utils.i: utils.cpp.i
 
 # target to preprocess a source file
 utils.cpp.i:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f src/utils/CMakeFiles/utils.dir/build.make src/utils/CMakeFiles/utils.dir/utils.cpp.i
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f src/utils/CMakeFiles/utils.dir/build.make src/utils/CMakeFiles/utils.dir/utils.cpp.i
 .PHONY : utils.cpp.i
 
 utils.s: utils.cpp.s
@@ -212,7 +212,7 @@ utils.s: utils.cpp.s
 
 # target to generate assembly for a file
 utils.cpp.s:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f src/utils/CMakeFiles/utils.dir/build.make src/utils/CMakeFiles/utils.dir/utils.cpp.s
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f src/utils/CMakeFiles/utils.dir/build.make src/utils/CMakeFiles/utils.dir/utils.cpp.s
 .PHONY : utils.cpp.s
 
 # Help Target
@@ -242,6 +242,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/netpipe/Desktop/ELFTools && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

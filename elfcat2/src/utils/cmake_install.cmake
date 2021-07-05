@@ -1,4 +1,4 @@
-# Install script for directory: /home/netpipe/Desktop/ELFTools/src/utils
+# Install script for directory: /home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

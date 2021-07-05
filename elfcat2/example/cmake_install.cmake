@@ -1,4 +1,4 @@
-# Install script for directory: /home/netpipe/Desktop/ELFTools/example
+# Install script for directory: /home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/netpipe/Desktop/ELFTools/bin/example" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/netpipe/Desktop/ELFTools/bin/example")
+  if(EXISTS "$ENV{DESTDIR}/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin/example" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin/example")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/netpipe/Desktop/ELFTools/bin/example"
+         FILE "$ENV{DESTDIR}/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin/example"
          RPATH "")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/netpipe/Desktop/ELFTools/bin/example")
+   "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin/example")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/netpipe/Desktop/ELFTools/bin" TYPE EXECUTABLE FILES "/home/netpipe/Desktop/ELFTools/example/example")
-  if(EXISTS "$ENV{DESTDIR}/home/netpipe/Desktop/ELFTools/bin/example" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/netpipe/Desktop/ELFTools/bin/example")
+file(INSTALL DESTINATION "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin" TYPE EXECUTABLE FILES "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/example/example")
+  if(EXISTS "$ENV{DESTDIR}/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin/example" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin/example")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/netpipe/Desktop/ELFTools/bin/example")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/bin/example")
     endif()
   endif()
 endif()

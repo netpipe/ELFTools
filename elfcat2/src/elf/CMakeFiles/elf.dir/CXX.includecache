@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/netpipe/Desktop/ELFTools/src/elf/defs.cpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/defs.cpp
 map
 -
 string
@@ -14,23 +14,23 @@ string
 sstream
 -
 include/defs.hpp
-/home/netpipe/Desktop/ELFTools/src/elf/include/defs.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/include/defs.hpp
 
-/home/netpipe/Desktop/ELFTools/src/elf/elf32.cpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/elf32.cpp
 include/elf32.hpp
-/home/netpipe/Desktop/ELFTools/src/elf/include/elf32.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/include/elf32.hpp
 
-/home/netpipe/Desktop/ELFTools/src/elf/elf64.cpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/elf64.cpp
 include/elf64.hpp
-/home/netpipe/Desktop/ELFTools/src/elf/include/elf64.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/include/elf64.hpp
 
-/home/netpipe/Desktop/ELFTools/src/elf/include/defs.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/include/defs.hpp
 cstdint
 -
 string
 -
 
-/home/netpipe/Desktop/ELFTools/src/elf/include/elf32.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/include/elf32.hpp
 array
 -
 cstdint
@@ -40,9 +40,9 @@ string
 utils.hpp
 -
 elfxx.hpp
-/home/netpipe/Desktop/ELFTools/src/elf/include/elfxx.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/include/elfxx.hpp
 
-/home/netpipe/Desktop/ELFTools/src/elf/include/elf64.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/include/elf64.hpp
 utils.hpp
 -
 array
@@ -52,21 +52,21 @@ cstdint
 string
 -
 elfxx.hpp
-/home/netpipe/Desktop/ELFTools/src/elf/include/elfxx.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/include/elfxx.hpp
 parser.hpp
-/home/netpipe/Desktop/ELFTools/src/elf/include/parser.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/include/parser.hpp
 
-/home/netpipe/Desktop/ELFTools/src/elf/include/elfxx.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/include/elfxx.hpp
 stdexcept
 -
 vector
 -
 defs.hpp
-/home/netpipe/Desktop/ELFTools/src/elf/include/defs.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/include/defs.hpp
 parser.hpp
-/home/netpipe/Desktop/ELFTools/src/elf/include/parser.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/include/parser.hpp
 
-/home/netpipe/Desktop/ELFTools/src/elf/include/parser.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/include/parser.hpp
 array
 -
 memory
@@ -78,9 +78,9 @@ vector
 set
 -
 defs.hpp
-/home/netpipe/Desktop/ELFTools/src/elf/include/defs.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/include/defs.hpp
 
-/home/netpipe/Desktop/ELFTools/src/elf/parser.cpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/parser.cpp
 algorithm
 -
 stdexcept
@@ -92,11 +92,11 @@ variant
 utils.hpp
 -
 include/parser.hpp
-/home/netpipe/Desktop/ELFTools/src/elf/include/parser.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/include/parser.hpp
 include/elf32.hpp
-/home/netpipe/Desktop/ELFTools/src/elf/include/elf32.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/include/elf32.hpp
 include/elf64.hpp
-/home/netpipe/Desktop/ELFTools/src/elf/include/elf64.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/include/elf64.hpp
 
 src/utils/include/utils.hpp
 array

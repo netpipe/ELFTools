@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/netpipe/Desktop/ELFTools/src/utils/include/utils.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/utils/include/utils.hpp
 array
 -
 cstdint
@@ -24,7 +24,7 @@ type_traits
 vector
 -
 
-/home/netpipe/Desktop/ELFTools/src/utils/utils.cpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/utils/utils.cpp
 cmath
 -
 fstream
@@ -38,5 +38,5 @@ sstream
 string
 -
 include/utils.hpp
-/home/netpipe/Desktop/ELFTools/src/utils/include/utils.hpp
+/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/utils/include/utils.hpp
 

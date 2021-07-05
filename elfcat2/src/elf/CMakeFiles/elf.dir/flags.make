@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/netpipe/Desktop/ELFTools/src/utils/include 
+CXX_INCLUDES = -I"/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/utils/include" 
 

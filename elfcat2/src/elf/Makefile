@@ -65,10 +65,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/netpipe/Desktop/ELFTools
+CMAKE_SOURCE_DIR = "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/netpipe/Desktop/ELFTools
+CMAKE_BINARY_DIR = "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -143,14 +143,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/netpipe/Desktop/ELFTools && $(CMAKE_COMMAND) -E cmake_progress_start /home/netpipe/Desktop/ELFTools/CMakeFiles /home/netpipe/Desktop/ELFTools/src/elf/CMakeFiles/progress.marks
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f CMakeFiles/Makefile2 src/elf/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/netpipe/Desktop/ELFTools/CMakeFiles 0
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/CMakeFiles" "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/CMakeFiles/progress.marks"
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f CMakeFiles/Makefile2 src/elf/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f CMakeFiles/Makefile2 src/elf/clean
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f CMakeFiles/Makefile2 src/elf/clean
 .PHONY : clean
 
 # The main clean target
@@ -160,22 +160,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f CMakeFiles/Makefile2 src/elf/preinstall
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f CMakeFiles/Makefile2 src/elf/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f CMakeFiles/Makefile2 src/elf/preinstall
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f CMakeFiles/Makefile2 src/elf/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/netpipe/Desktop/ELFTools && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/elf/CMakeFiles/elf.dir/rule:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f CMakeFiles/Makefile2 src/elf/CMakeFiles/elf.dir/rule
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f CMakeFiles/Makefile2 src/elf/CMakeFiles/elf.dir/rule
 .PHONY : src/elf/CMakeFiles/elf.dir/rule
 
 # Convenience name for target.
@@ -185,7 +185,7 @@ elf: src/elf/CMakeFiles/elf.dir/rule
 
 # fast build rule for target.
 elf/fast:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/build
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/build
 .PHONY : elf/fast
 
 defs.o: defs.cpp.o
@@ -194,7 +194,7 @@ defs.o: defs.cpp.o
 
 # target to build an object file
 defs.cpp.o:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/defs.cpp.o
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/defs.cpp.o
 .PHONY : defs.cpp.o
 
 defs.i: defs.cpp.i
@@ -203,7 +203,7 @@ defs.i: defs.cpp.i
 
 # target to preprocess a source file
 defs.cpp.i:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/defs.cpp.i
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/defs.cpp.i
 .PHONY : defs.cpp.i
 
 defs.s: defs.cpp.s
@@ -212,7 +212,7 @@ defs.s: defs.cpp.s
 
 # target to generate assembly for a file
 defs.cpp.s:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/defs.cpp.s
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/defs.cpp.s
 .PHONY : defs.cpp.s
 
 elf32.o: elf32.cpp.o
@@ -221,7 +221,7 @@ elf32.o: elf32.cpp.o
 
 # target to build an object file
 elf32.cpp.o:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/elf32.cpp.o
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/elf32.cpp.o
 .PHONY : elf32.cpp.o
 
 elf32.i: elf32.cpp.i
@@ -230,7 +230,7 @@ elf32.i: elf32.cpp.i
 
 # target to preprocess a source file
 elf32.cpp.i:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/elf32.cpp.i
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/elf32.cpp.i
 .PHONY : elf32.cpp.i
 
 elf32.s: elf32.cpp.s
@@ -239,7 +239,7 @@ elf32.s: elf32.cpp.s
 
 # target to generate assembly for a file
 elf32.cpp.s:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/elf32.cpp.s
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/elf32.cpp.s
 .PHONY : elf32.cpp.s
 
 elf64.o: elf64.cpp.o
@@ -248,7 +248,7 @@ elf64.o: elf64.cpp.o
 
 # target to build an object file
 elf64.cpp.o:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/elf64.cpp.o
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/elf64.cpp.o
 .PHONY : elf64.cpp.o
 
 elf64.i: elf64.cpp.i
@@ -257,7 +257,7 @@ elf64.i: elf64.cpp.i
 
 # target to preprocess a source file
 elf64.cpp.i:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/elf64.cpp.i
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/elf64.cpp.i
 .PHONY : elf64.cpp.i
 
 elf64.s: elf64.cpp.s
@@ -266,7 +266,7 @@ elf64.s: elf64.cpp.s
 
 # target to generate assembly for a file
 elf64.cpp.s:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/elf64.cpp.s
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/elf64.cpp.s
 .PHONY : elf64.cpp.s
 
 parser.o: parser.cpp.o
@@ -275,7 +275,7 @@ parser.o: parser.cpp.o
 
 # target to build an object file
 parser.cpp.o:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/parser.cpp.o
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/parser.cpp.o
 .PHONY : parser.cpp.o
 
 parser.i: parser.cpp.i
@@ -284,7 +284,7 @@ parser.i: parser.cpp.i
 
 # target to preprocess a source file
 parser.cpp.i:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/parser.cpp.i
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/parser.cpp.i
 .PHONY : parser.cpp.i
 
 parser.s: parser.cpp.s
@@ -293,7 +293,7 @@ parser.s: parser.cpp.s
 
 # target to generate assembly for a file
 parser.cpp.s:
-	cd /home/netpipe/Desktop/ELFTools && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/parser.cpp.s
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(MAKE) -f src/elf/CMakeFiles/elf.dir/build.make src/elf/CMakeFiles/elf.dir/parser.cpp.s
 .PHONY : parser.cpp.s
 
 # Help Target
@@ -332,6 +332,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/netpipe/Desktop/ELFTools && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

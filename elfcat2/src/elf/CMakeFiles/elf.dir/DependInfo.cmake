@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/netpipe/Desktop/ELFTools/src/elf/defs.cpp" "/home/netpipe/Desktop/ELFTools/src/elf/CMakeFiles/elf.dir/defs.cpp.o"
-  "/home/netpipe/Desktop/ELFTools/src/elf/elf32.cpp" "/home/netpipe/Desktop/ELFTools/src/elf/CMakeFiles/elf.dir/elf32.cpp.o"
-  "/home/netpipe/Desktop/ELFTools/src/elf/elf64.cpp" "/home/netpipe/Desktop/ELFTools/src/elf/CMakeFiles/elf.dir/elf64.cpp.o"
-  "/home/netpipe/Desktop/ELFTools/src/elf/parser.cpp" "/home/netpipe/Desktop/ELFTools/src/elf/CMakeFiles/elf.dir/parser.cpp.o"
+  "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/defs.cpp" "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/CMakeFiles/elf.dir/defs.cpp.o"
+  "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/elf32.cpp" "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/CMakeFiles/elf.dir/elf32.cpp.o"
+  "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/elf64.cpp" "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/CMakeFiles/elf.dir/elf64.cpp.o"
+  "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/parser.cpp" "/home/netpipe/Desktop/untitled folder 4/ELFTools/elfcat2/src/elf/CMakeFiles/elf.dir/parser.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
