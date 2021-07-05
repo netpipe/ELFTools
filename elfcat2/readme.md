@@ -4,6 +4,7 @@ elfcat - ELF visualizer. Generates HTML files from ELF binaries.
 
 cmake .
 make
+make install    - creates a bin folder and places all the js and other files into it ( todo make more portable later. )
 ./elfcat example
 
 2. How does it look like?
