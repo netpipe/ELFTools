@@ -1,0 +1,28 @@
+0.4.1
+
+	* Fixed issues with serializing SHT_DYNSYM
+
+0.4.0  05/04/2004
+
+	* Major enhancements to make the library more robust
+	  * Modifications to sections can now be done w/o pointer invalidation
+	* Relocation support
+	* melf_open now requires an 'access' argument
+	* Added melf_synchronize routine
+	* Added additional section and program header routines
+	* Added ELF header routines
+	* Improved string handling in string tables
+
+0.3.0  11/05/2003
+
+	* Fixed melf_save() to only save files as 0755 if type is ET_EXEC.
+	* Made Makefile.in prefix aware (for installation)
+	* Relocation API
+
+0.2.0  06/01/2003
+
+	* Added resource support.
+	
+0.1.0  02/22/2003
+
+	* Initial release.

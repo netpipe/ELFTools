@@ -1,0 +1,17 @@
+0.0.2.2: 12/19/2004
+
+	* Fixed build process on AMD64 (casting issues in libmelf)
+	* Fixed minor memory leaks under certain conditions in verification
+	
+0.0.2.1: 06/05/2004
+
+	* Fixed build process on AMD64
+
+0.0.2.0: 05/04/2004
+
+	* Improvements to the signature algorithm
+	  * Signature versioning now supported
+	  * Checksums include section headers, program headers, and the elf
+	    header, and of course their respective contents.
+   * Code clean up
+	* Changed the licensing scheme to the ``Artistic License''

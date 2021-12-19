@@ -1,0 +1,49 @@
+AC_INIT(acgeneral.m4)
+
+dnl AC_ARG_PROGRAM
+
+AC_ARG_WITH(openssl, [ --with-openssl   Root path to OpenSSL installation. (Default=/usr/local/ssl)],,with_openssl="/usr/local/ssl")
+
+AC_PROG_MAKE_SET
+AC_PROG_CC
+
+AC_MSG_CHECKING(this systems operating system)
+AC_CACHE_VAL(cache_sys_os,
+[
+if test "$uname_prog" != "no"; then
+  cache_sys_os="`uname`"
+
+  case "$cache_sys_os" in
+    SunOS)
+      case "`uname -r`" in
+        5.*) cache_sys_os="Solaris";
+      esac
+    ;;
+  esac
+fi
+])
+AC_MSG_RESULT($cache_sys_os)
+
+if test "x$cache_sys_os" = "xSolaris"; then
+	DEFINES="$DEFINES -DSUNOS"
+fi
+
+dnl AC_CHECK_FILE("$with_openssl/include/openssl/engine.h",,[AC_MSG_ERROR([required openssl header missing])])
+AC_CHECK_FILE("$with_openssl/include/openssl/objects.h",,[AC_MSG_ERROR([required openssl header missing])])
+AC_CHECK_FILE("$with_openssl/include/openssl/rsa.h",,[AC_MSG_ERROR([required openssl header missing])])
+AC_CHECK_FILE("$with_openssl/include/openssl/md5.h",,[AC_MSG_ERROR([required openssl header missing])])
+AC_CHECK_FILE("$with_openssl/include/openssl/x509.h",,[AC_MSG_ERROR([required openssl header missing])])
+AC_CHECK_FILE("$with_openssl/include/openssl/pem.h",,[AC_MSG_ERROR([required openssl header missing])])
+AC_CHECK_FILE("$with_openssl/include/openssl/bio.h",,[AC_MSG_ERROR([required openssl header missing])])
+
+AC_CHECK_FILE("$with_openssl/lib/libcrypto.so",,[AC_MSG_ERROR([required openssl library missing])])
+
+INCLUDES="$INCLUDES -I$with_openssl/include"
+LIBPATH="$LIBPATH -L$with_openssl/lib"
+
+AC_SUBST(LIBPATH)
+AC_SUBST(INCLUDES)
+AC_SUBST(DEFINES)
+AC_SUBST(CC)
+
+AC_OUTPUT(Makefile tools/Makefile lib/Makefile)
