@@ -1,0 +1,38 @@
+QProcess askPermission;
+askPermission.start("kdialog --password \"Please enter your password to continue\"");
+askPermission.waitForReadyRead(-1);
+QByteArray sudoPwd = askPermission.readAll().simplified();
+askPermission.close();
+
+system("echo " + sudoPwd + " | sudo -S apt-get update");
+system("echo " + sudoPwd + " | sudo -S apt-get install gawk");
+
+
+bool askForPermissions()
+{
+    QProcess shell;
+    shell.start("kdialog --title \"Superuser\" --password \"Please enter your password to continue\"");
+    shell.waitForReadyRead(-1);
+    QByteArray sudoPwd = shell.readAllStandardOutput().simplified();
+    shell.close();
+
+    int ret = system("echo " + sudoPwd + " | sudo -S ls");
+    if (ret != 0) {
+        QMessageBox msgBox;
+        msgBox.setWindowTitle(tr("Error"));
+        msgBox.setIcon(QMessageBox::Critical);
+        msgBox.setText(tr("\nWrong password"));
+        msgBox.setStandardButtons(QMessageBox::Ok);
+        msgBox.setButtonText(QMessageBox::Ok, "Retry");
+        msgBox.exec();
+    }
+    return ret == 0;
+}
+
+
+void myFunct()
+{
+    while (!askForPermissions()) {}
+
+    // Permissions granted, do work ...
+}

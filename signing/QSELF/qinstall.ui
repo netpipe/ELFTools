@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QInstall</class>
+ <widget class="QMainWindow" name="QInstall">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>824</width>
+    <height>540</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QInstall</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Install</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="title">
+           <string>Files</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="0" column="0">
+            <widget class="QTableWidget" name="filelist">
+             <column>
+              <property name="text">
+               <string>Files</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLineEdit" name="editFile"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btnBrowse">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string>Inspect</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QLabel" name="lblPath">
+            <property name="text">
+             <string>Path</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btnInstall">
+            <property name="minimumSize">
+             <size>
+              <width>75</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>75</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Install</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Create</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="2" column="1">
+         <widget class="QPushButton" name="btnAdd">
+          <property name="text">
+           <string>Add File</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QPushButton" name="btnCreate">
+          <property name="text">
+           <string>Create</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="title">
+           <string>Options</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QCheckBox" name="chkMd5">
+             <property name="text">
+              <string>create md5 sum</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="chkExe">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>Append To New Executable</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_2">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="text">
+              <string>Compress Only</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="btnRemove">
+          <property name="text">
+           <string>Remove File</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" rowspan="3">
+         <widget class="QTableWidget" name="tblFileList">
+          <column>
+           <property name="text">
+            <string>File</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Archiver</string>
+       </attribute>
+       <widget class="QPushButton" name="btnDecompress">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>110</y>
+          <width>181</width>
+          <height>121</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Decompress ZIP</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnOpen">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>340</y>
+          <width>91</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>test</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="editZipFilePath">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>340</y>
+          <width>221</width>
+          <height>27</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>824</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>&amp;Menu</string>
+    </property>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
