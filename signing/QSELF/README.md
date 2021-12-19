@@ -5,6 +5,8 @@ currently is uses extractor and zip archive to do the job.
 
 
 todo
+port existing QInstall to QSELF this is still just an installer. it will extract the apps to ram or local folder and run them.
+
 single file executable extractor exporter for compact neat installers
  
 
