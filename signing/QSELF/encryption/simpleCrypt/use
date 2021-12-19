@@ -1,0 +1,75 @@
+https://wiki.qt.io/Simple_encryption_with_SimpleCrypt
+
+
+  QString encryptToString(const QString& plaintext);
+  QString encryptToString(QByteArray plaintext);
+  QByteArray encryptToByteArray(const QString& plaintext);
+  QByteArray encryptToByteArray(QByteArray plaintext);
+
+
+
+  QString decryptToString(const QString& plaintext);
+  QString decryptToString(QByteArray plaintext);
+  QByteArray decryptToByteArray(const QString& plaintext);
+  QByteArray decryptToByteArray(QByteArray plaintext);
+
+
+//optional setkey method
+  SimpleCrypt crypto();
+  crypto.setKey(0x0c2ad4a4acb9f023)
+
+
+//with strings
+  SimpleCrypt crypto(Q_UINT64_C(0x0c2ad4a4acb9f023)); //some random number
+  QString testString("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
+ 
+  //Encryption
+  QString result = crypto.encryptToString(testString);
+
+  //Decryption
+  QString decrypted = crypto.decryptToString(result);
+  qDebug() << testString << endl << result << endl << decrypted;
+
+
+
+
+//with binary
+ //setup our objects
+  SimpleCrypt crypto(Q_UINT64_C(0x0c2ad4a4acb9f023)); //some random number
+  crypto.setCompressionMode(SimpleCrypt::CompressionAlways); //always compress the data, see section below
+  crypto.setIntegrityProtectionMode(SimpleCrypt::ProtectionHash); //properly protect the integrity of the data
+  QBuffer buffer;
+  buffer.open(QIODevice::WriteOnly);
+  QDataStream s(&buffer);
+  //stream the data into our buffer
+  s.setVersion(QDataStream::Qt_4_7);
+  s << myString; //stream in a string
+  s << myUint16; //stream in an unsigned integer
+  s << myImage; //stream in an image
+  s << someMoreData;
+  // … etc.
+
+  QByteArray myCypherText = crypto.encryptToByteArray(buffer.data());
+  if (crypto.lastError() == SimpleCrypt::ErrorNoError) {
+    // do something relevant with the cyphertext, such as storing it or sending it over a socket to another machine.
+  }
+  buffer.close();
+
+//binary decrypt
+  SimpleCrypt crypto(Q_UINT64_C(0x0c2ad4a4acb9f023)); //same random number: key should match encryption key
+  QByteArray plaintext = crypto.decryptToByteArray(myCypherText);
+  if (!crypto.lastError() == SimpleCrypt::ErrorNoError) {
+    // check why we have an error, use the error code from crypto.lastError() for that
+  return;
+  }
+
+  QBuffer buffer(&plaintext);
+  buffer.open(QIODevice::ReadOnly);
+  QDataStream s(&buffer);
+  s.setVersion(QDataStream::Qt_4_7);
+  s >> myString; //stream in a string
+  s >> myUint16; //stream in an unsigned integer
+  s >> myImage; //stream in an image
+  s >> someMoreData;
+  //etc.
+  buffer.close();
